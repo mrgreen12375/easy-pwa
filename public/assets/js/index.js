@@ -1,4 +1,6 @@
 import { Workbox } from 'workbox-window';
+import '../css/style.css';
+
 
 if ('serviceWorker' in navigator) {
 

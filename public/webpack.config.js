@@ -17,6 +17,13 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
+        filename: 'index.html',
+        title: 'easy-pwa'
+      }),
+      
+      new HtmlWebpackPlugin({
+        template: './more.html',
+        filename: 'more.html',
         title: 'easy-pwa'
       }),
      
